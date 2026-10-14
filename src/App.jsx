@@ -8,7 +8,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className="App">
+      <header className="App-header">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+        <h1> Hello from Amplify</h1>
+      </header>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -115,8 +119,8 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
-    </>
-  )
+    </div>
+  );
 }
 
 export default App
