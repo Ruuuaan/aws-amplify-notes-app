@@ -5,7 +5,11 @@ import { data } from './data/resource';
 /**
  * @see https://docs.amplify.aws/react/build-a-backend/ to add storage, functions, and more
  */
-defineBackend({
+export const backend = defineBackend({
   auth,
   data,
 });
+
+// Blocks integration — adds Building Blocks to your Amplify backend
+import { initBlocks } from './blocks.js';
+await initBlocks(backend);
