@@ -11,6 +11,8 @@ frontend:
     preBuild:
       commands:
         - npm ci
+        - npm -v
+        - npm ci
     build:
       commands:
         - npm run build
