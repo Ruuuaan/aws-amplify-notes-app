@@ -14,20 +14,24 @@
     "blocks:generate-client": "cross-env NODE_OPTIONS=\"--conditions=aws-runtime\" tsx aws-blocks/scripts/generate-client.ts"
   },
   "dependencies": {
-    "aws-amplify": "^6.22.1",
+    "@aws-amplify/ui-react": "^6.15.7",
+    "@aws-blocks/blocks": "*",
+    "aws-amplify": "^6.22.2",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "@aws-blocks/blocks": "*"
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.25.1",
     "@aws-amplify/backend-cli": "^1.10.0",
+    "@aws-amplify/seed": "^1.1.5",
     "@eslint/js": "^10.0.1",
+    "@types/node": "^20.0.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "aws-cdk-lib": "^2.268.0",
     "constructs": "^10.8.1",
+    "cross-env": "^7.0.3",
     "esbuild": "^0.28.2",
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
@@ -35,9 +39,7 @@
     "globals": "^17.12.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
-    "vite": "^8.3.0",
-    "@types/node": "^20.0.0",
-    "cross-env": "^7.0.3"
+    "vite": "^8.3.0"
   },
   "workspaces": [
     "aws-blocks"
