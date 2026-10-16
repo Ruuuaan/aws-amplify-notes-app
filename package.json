@@ -23,7 +23,6 @@
   "devDependencies": {
     "@aws-amplify/backend": "^1.25.1",
     "@aws-amplify/backend-cli": "^1.10.0",
-    "@aws-amplify/seed": "^1.1.5",
     "@eslint/js": "^10.0.1",
     "@types/node": "^20.0.0",
     "@types/react": "^19.2.18",
